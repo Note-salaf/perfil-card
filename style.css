@@ -1,0 +1,169 @@
+:root {
+    --cor-texto-principal: #373e47;
+    --cor-texto-secundario: #b1b6be;
+    --cor-fundo-principal: #eaeaee;
+    --cor-fundo-card: #fefefe;
+    --cor-fundo-github: #37404f;
+    --cor-github-hover: #1b2027; 
+    --cor-texto-github: white;
+    --cor-texto-linkedin: white;
+    --cor-fundo-linkedin: #1975cb;
+    --cor-linkedin-hover: #185088;
+    --cor-fundo-portfolio: #c8c8ca;
+    --cor-portfolio-hover: #babbbd;
+    --cor-texto-portfolio: rgb(36, 36, 36);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    background-color: var(--cor-fundo-principal);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--cor-fundo-card);
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.container-imagem {
+    margin-top: 30px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.nome {
+    text-align: center;
+    color: var(--cor-texto-principal);
+}
+
+.cargo {
+    text-align: center;
+    color: var(--cor-texto-secundario);
+    font-size: 0.8rem;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(206, 203, 203);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* github */
+.github {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-fundo-github);
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 2.2rem;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.github:hover {
+    background-color: var(--cor-github-hover);
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.github svg {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.githubText {
+    color: var(--cor-texto-github);
+    margin-left: 10px;
+    user-select: none;
+}
+
+/* linkedin */
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-fundo-linkedin);
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 2.2rem;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.linkedin:hover {
+    background-color: var(--cor-linkedin-hover);
+    transform: translateY(-2px);
+    cursor: pointer;
+
+}
+
+
+.linkedin svg {
+    width: 20px;
+    margin-left: 10px;
+
+}
+
+.linkedinText {
+    color: var(--cor-texto-linkedin);
+    margin-left: 10px;
+    user-select: none;
+}
+
+/* portfólio */
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-fundo-portfolio);
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 2.2rem;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.portfolio:hover {
+    background-color: var(--cor-portfolio-hover);
+    transform: translateY(-2px);
+    cursor: pointer;
+
+    }
+
+.portfolio svg {
+    width: 20px;
+    margin-left: 10px;
+
+}
+
+.portfolioText {
+    color: var(--cor-texto-portfolio);
+    margin-left: 10px;
+    user-select: none;
+}
