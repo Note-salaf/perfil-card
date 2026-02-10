@@ -1,6 +1,6 @@
 Página de Perfil Simples
 
-Demo:
+Demo: https://note-salaf.github.io/perfil-card/
 
 Projeto de estudo desenvolvido com HTML e CSS, com o objetivo de praticar organização de layout, uso de Flexbox, variáveis CSS e hierarquia visual.
 A página apresenta um card de perfil centralizado, contendo imagem, nome, cargo e botões de contato com estados de hover.
@@ -22,5 +22,6 @@ Criar um design simples e organizado
 Projeto estático, focado apenas em layout e estilo.
 
 📌 Observações
+
 
 Projeto criado exclusivamente para fins de aprendizado, sem uso de JavaScript.
